@@ -1,0 +1,5 @@
+{
+    "module": "emo-test/gen/ui/launchpad/Home/view.js",
+    "extensionPoint": "emo-test-view",
+    "description": "emo-test - Application View"
+}

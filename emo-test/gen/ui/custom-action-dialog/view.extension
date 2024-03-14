@@ -1,0 +1,5 @@
+{
+    "module": "emo-test/gen/ui/custom-action-dialog/view.js",
+    "extensionPoint": "emo-test-dialog-window",
+    "description": "emo-test - Custom Action Dialog Window"
+}

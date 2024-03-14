@@ -1,0 +1,103 @@
+{
+  "tablePrefix": "emo_",
+  "brand": "emo",
+  "brandUrl": "emo",
+  "title": "emo-test",
+  "description": "emo-test",
+  "projectName": "emo-test",
+  "workspaceName": "workspace",
+  "filePath": "edm.model",
+  "templateId": "template-application-angular/template/template.js",
+  "perspectives": {
+    "entities": {
+      "views": [
+        "Entity55534"
+      ],
+      "name": "entities",
+      "label": "entities",
+      "order": "100",
+      "icon": "/services/web/resources/unicons/copy.svg",
+      "role": ""
+    }
+  },
+  "models": [
+    {
+      "properties": [
+        {
+          "calculatedPropertyExpressionCreate": "",
+          "calculatedPropertyExpressionUpdate": "",
+          "dataAutoIncrement": true,
+          "dataLength": "0",
+          "dataName": "ENTITY55534_ID",
+          "dataNullable": true,
+          "dataPrimaryKey": true,
+          "dataType": "INTEGER",
+          "dataUnique": false,
+          "isCalculatedProperty": false,
+          "isRequiredProperty": false,
+          "name": "Id",
+          "widgetIsMajor": true,
+          "widgetLength": "20",
+          "widgetSize": "",
+          "widgetType": "TEXTBOX",
+          "dataNotNull": false,
+          "widgetLabel": "Id",
+          "widgetDropdownUrl": "",
+          "dataTypeJava": "int",
+          "dataTypeTypescript": "number",
+          "inputRule": ""
+        },
+        {
+          "calculatedPropertyExpressionCreate": "",
+          "calculatedPropertyExpressionUpdate": "",
+          "dataAutoIncrement": false,
+          "dataLength": "20",
+          "dataName": "ENTITY55534_NAME",
+          "dataNullable": true,
+          "dataPrimaryKey": false,
+          "dataType": "VARCHAR",
+          "dataUnique": false,
+          "isCalculatedProperty": false,
+          "isRequiredProperty": false,
+          "name": "Name",
+          "widgetIsMajor": true,
+          "widgetLength": "20",
+          "widgetSize": "",
+          "widgetType": "TEXTBOX",
+          "dataNotNull": false,
+          "widgetLabel": "Name",
+          "widgetDropdownUrl": "",
+          "dataTypeJava": "string",
+          "dataTypeTypescript": "string",
+          "minLength": 0,
+          "maxLength": 20,
+          "inputRule": ""
+        }
+      ],
+      "caption": "Manage entity Entity55534",
+      "dataCount": "SELECT COUNT(*) AS COUNT FROM \"emo_ENTITY55534\"",
+      "dataName": "ENTITY55534",
+      "dataQuery": "",
+      "disableGeneration": "false",
+      "icon": "/services/web/resources/unicons/file.svg",
+      "layoutType": "MANAGE",
+      "menuIndex": "100",
+      "menuKey": "entity55534",
+      "menuLabel": "Entity55534",
+      "name": "Entity55534",
+      "navigationPath": "/Home",
+      "perspectiveIcon": "/services/web/resources/unicons/copy.svg",
+      "perspectiveName": "entities",
+      "perspectiveOrder": "100",
+      "perspectiveRole": "",
+      "title": "Entity55534",
+      "tooltip": "Entity55534",
+      "type": "PRIMARY",
+      "referencedProjections": [],
+      "primaryKeys": [
+        "Id"
+      ],
+      "primaryKeysString": "Id"
+    }
+  ]
+}

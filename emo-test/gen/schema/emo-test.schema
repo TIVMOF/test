@@ -1,0 +1,27 @@
+{
+    "schema": {
+        "structures": [
+            {
+                "name": "emo_ENTITY55534",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "ENTITY55534_ID"
+                    },
+                    {
+                        "type": "VARCHAR",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "ENTITY55534_NAME"
+                    }
+                ]
+            }
+        ]
+    },
+    "datasource": "DefaultDB"
+}

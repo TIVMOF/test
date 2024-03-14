@@ -1,0 +1,13 @@
+<model>
+ <entities>
+  <entity name="Entity55534" dataName="ENTITY55534" dataCount="SELECT COUNT(*) AS COUNT FROM &quot;${tablePrefix}ENTITY55534&quot;" dataQuery="" disableGeneration="false" type="PRIMARY" title="Entity55534" caption="Manage entity Entity55534" tooltip="Entity55534" icon="/services/web/resources/unicons/file.svg" menuKey="entity55534" menuLabel="Entity55534" menuIndex="100" layoutType="MANAGE" navigationPath="/Home" perspectiveName="entities" perspectiveIcon="/services/web/resources/unicons/copy.svg" perspectiveOrder="100" perspectiveRole="">
+    <property name="Id" isRequiredProperty="false" isCalculatedProperty="false" calculatedPropertyExpressionCreate="" calculatedPropertyExpressionUpdate="" dataName="ENTITY55534_ID" dataType="INTEGER" dataLength="0" dataNullable="true" dataPrimaryKey="true" dataAutoIncrement="true" dataUnique="false" widgetType="TEXTBOX" widgetSize="" widgetLength="20" widgetIsMajor="true"></property>
+    <property name="Name" isRequiredProperty="false" isCalculatedProperty="false" calculatedPropertyExpressionCreate="" calculatedPropertyExpressionUpdate="" dataName="ENTITY55534_NAME" dataType="VARCHAR" dataLength="20" dataNullable="true" dataPrimaryKey="false" dataAutoIncrement="false" dataUnique="false" widgetType="TEXTBOX" widgetSize="" widgetLength="20" widgetIsMajor="true"></property>
+  </entity>
+ </entities>
+ <perspectives>
+ </perspectives>
+ <navigations>
+ </navigations>
+ <mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="2" style="entity" vertex="1" parent="1"><Entity name="Entity55534" dataName="ENTITY55534" dataCount="SELECT COUNT(*) AS COUNT FROM &quot;${tablePrefix}ENTITY55534&quot;" title="Entity55534" caption="Manage entity Entity55534" tooltip="Entity55534" menuLabel="Entity55534" type="Entity" menuKey="entity55534" disableGeneration="false" as="value"><Array as="referenceProjections"/></Entity><mxGeometry x="170" y="100" width="200" height="80" as="geometry"><mxRectangle width="200" height="28" as="alternateBounds"/></mxGeometry></mxCell><mxCell id="3" vertex="1" connectable="0" parent="2"><Property name="Id" dataName="ENTITY55534_ID" dataType="INTEGER" dataLength="0" dataPrimaryKey="true" dataAutoIncrement="true" as="value"/><mxGeometry y="28" width="200" height="26" as="geometry"/></mxCell><mxCell id="4" vertex="1" connectable="0" parent="2"><Property name="Name" dataName="ENTITY55534_NAME" as="value"/><mxGeometry y="54" width="200" height="26" as="geometry"/></mxCell></root></mxGraphModel>
+</model>

@@ -1,0 +1,67 @@
+{
+    "model": {
+        "entities": [
+            {
+                "properties": [
+                    {
+                        "calculatedPropertyExpressionCreate": "",
+                        "calculatedPropertyExpressionUpdate": "",
+                        "dataAutoIncrement": "true",
+                        "dataLength": "0",
+                        "dataName": "ENTITY55534_ID",
+                        "dataNullable": "true",
+                        "dataPrimaryKey": "true",
+                        "dataType": "INTEGER",
+                        "dataUnique": "false",
+                        "isCalculatedProperty": "false",
+                        "isRequiredProperty": "false",
+                        "name": "Id",
+                        "widgetIsMajor": "true",
+                        "widgetLength": "20",
+                        "widgetSize": "",
+                        "widgetType": "TEXTBOX"
+                    },
+                    {
+                        "calculatedPropertyExpressionCreate": "",
+                        "calculatedPropertyExpressionUpdate": "",
+                        "dataAutoIncrement": "false",
+                        "dataLength": "20",
+                        "dataName": "ENTITY55534_NAME",
+                        "dataNullable": "true",
+                        "dataPrimaryKey": "false",
+                        "dataType": "VARCHAR",
+                        "dataUnique": "false",
+                        "isCalculatedProperty": "false",
+                        "isRequiredProperty": "false",
+                        "name": "Name",
+                        "widgetIsMajor": "true",
+                        "widgetLength": "20",
+                        "widgetSize": "",
+                        "widgetType": "TEXTBOX"
+                    }
+                ],
+                "caption": "Manage entity Entity55534",
+                "dataCount": "SELECT COUNT(*) AS COUNT FROM \"${tablePrefix}ENTITY55534\"",
+                "dataName": "ENTITY55534",
+                "dataQuery": "",
+                "disableGeneration": "false",
+                "icon": "/services/web/resources/unicons/file.svg",
+                "layoutType": "MANAGE",
+                "menuIndex": "100",
+                "menuKey": "entity55534",
+                "menuLabel": "Entity55534",
+                "name": "Entity55534",
+                "navigationPath": "/Home",
+                "perspectiveIcon": "/services/web/resources/unicons/copy.svg",
+                "perspectiveName": "entities",
+                "perspectiveOrder": "100",
+                "perspectiveRole": "",
+                "title": "Entity55534",
+                "tooltip": "Entity55534",
+                "type": "PRIMARY"
+            }
+        ],
+        "perspectives": [],
+        "navigations": []
+    }
+}

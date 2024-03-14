@@ -1,0 +1,5 @@
+{
+    "module": "emo-test/gen/ui/entities/Entity55534/dialog-filter/view.js",
+    "extensionPoint": "emo-test-dialog-window",
+    "description": "emo-test - Application Dialog Window"
+}
